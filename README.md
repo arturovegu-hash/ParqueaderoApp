@@ -32,6 +32,7 @@ public class Vehiculo {
 
     // ... (Puedes añadir setters si son necesarios)
 }
+
 public class Automovil extends Vehiculo {
     private String tipoCombustible;
     private static final double TARIFA_POR_HORA = 5000; // Ejemplo de tarifa
@@ -49,6 +50,7 @@ public class Automovil extends Vehiculo {
         return TARIFA_POR_HORA;
     }
 }
+
 public class Motocicleta extends Vehiculo {
     private int cilindraje;
     private static final double TARIFA_POR_HORA = 2500; // Ejemplo de tarifa
@@ -66,6 +68,7 @@ public class Motocicleta extends Vehiculo {
         return TARIFA_POR_HORA;
     }
 }
+
 public class Camion extends Vehiculo {
     private double capacidadCarga;
     private static final double TARIFA_POR_HORA = 10000; // Ejemplo de tarifa
@@ -83,6 +86,7 @@ public class Camion extends Vehiculo {
         return TARIFA_POR_HORA;
     }
 }
+
 import java.time.LocalDateTime;
 import java.time.Duration;
 import java.util.ArrayList;
